@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    background-color: #393e46;
+    display: flex;
+    align-items: center;
+}
+
+#header-title {
+    color: #f3f8ff;
+}
+
+#logo {
+    width: 85px;
+    height: 55px;
+    padding-top: 0px;
+}
+
+#biodata {
+    margin: 0 5px 0 0;
+    position: absolute;
+    right: 50px;
+}
+
+#biodata a:hover {
+    background-color: #239b76;
+}
+
+#link1 {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.top-wrapper {
+    padding: 100px 0 55px 0;
+    border: 1px solid;
+    background-image: url(komputer.png);
+    align-items: center;
+    background-size: cover;
+    position: relative;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #f7f7f7
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    op: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.link_cursor {
+    cursor: pointer;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+#content p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.htmlcss h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.htmlcss p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-indent: 25px;
+}
+
+.javascript h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.javascript p {
+    word-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-indent: 25px;
+}
+
+.javascript {
+    background-color: #dedede44;
+}
+
+.sql h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sql p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-indent: 25px;
+}
+
+.python h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.python p {
+    word-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-indent: 25px;
+}
+
+.python {
+    background-color: #dedede44;
+}
+
+#jam-digital {
+    overflow: hidden;
+    width: 350px;
+    position: flex;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+#hours {
+    float: left;
+    width: 100px;
+    height: 50px;
+    background-color: #6B9AB8;
+    margin-right: 25px;
+    position: flex;
+}
+
+#minute {
+    float: left;
+    width: 100px;
+    height: 50px;
+    background-color: #A5B1CB;
+    position: flex;
+}
+
+#second {
+    float: right;
+    width: 100px;
+    height: 50px;
+    background-color: #FF618A;
+    margin-left: 25px;
+    position: flex;
+}
+
+#jam-digital p {
+    color: #FFF;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 4px;
+    position: flex;
+}
+
+footer {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    pading: 15px 0;
+}
+
+footer small {
+    color: #fff;
+    text-align: center;
+}
